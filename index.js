@@ -19,3 +19,15 @@ if(media> 5){
 else{
     console.log(`triste a nota da turma foi de ${media}`)
 }
+
+const rosa = (notaDoAluno1+ notaDoAluno2 + notaDoAluno3)/3
+
+if(Variavel >5){
+    console.log(6)
+}
+
+else{
+    console.log
+}(`Não pode não`)
+
+
