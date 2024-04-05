@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+      *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body{
+            background-color: rgb(121, 9, 9);
+
+        }
+        header{
+            padding: 32px;
+            border-bottom: 1px wheat;
+            background-color:rgb(233, 43, 43);
+        }
+        header div {
+            text-align: center;/*alinhamento no meio do header*/
+        }
+        header div a{
+            color: blanchedalmond;/* a cor do texto*/
+            font-size: 20px;/*tamanho da fonte*/
+            line-height: 30px; /*espaçamento entre linhas do textos*/
+            margin: 0 16px;/*espaçamento entre os textos*/
+            text-decoration: none;/*retirar decoração do texto*/   
+            font-family:"Lora", sans-serif ;/*a fonte escolhida pro menu*/            
+        }
+header div a:hover { /*seleção do modo quando o mause passar por cima "hover"*/
+    color: rgb(71, 3, 71);/* para mudar para cor rgb(110, 107, 107)*/
+    transition: color 700ms;/* e fazer uma transição de cor que dura 700ms*/
+    
+}
+#box {
+    text-align: center;
+    padding: 10px;
+}
