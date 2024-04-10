@@ -13,9 +13,22 @@
             padding: 32px;
             border-bottom: 1px wheat;
             background-color:rgb(233, 43, 43);
+        
+    }
+        .links {
+            text-align: center;
         }
-        header div {
-            text-align: center;/*alinhamento no meio do header*/
+        .links a{
+            color: rgb(2, 2, 53);
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 16px;
+            text-decoration: none;
+        }
+        .links a :hover{
+        color:var(--subcor);
+        transition: 600ms;
+        font-size: 23px;
         }
         header div a{
             color: blanchedalmond;/* a cor do texto*/
@@ -33,4 +46,31 @@ header div a:hover { /*seleção do modo quando o mause passar por cima "hover"*
 #box {
     text-align: center;
     padding: 10px;
+}
+#box img{
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-bottom: 32px;
+}
+#box h1{ 
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: bold;
+}
+#box h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+#box p{
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+:root{  
+    --subcor: blue 
+
 }
